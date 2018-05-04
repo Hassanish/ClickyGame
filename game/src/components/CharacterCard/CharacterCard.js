@@ -4,7 +4,7 @@ import "./CharacterCard.css";
 const CharacterCard = props => (
 
     <div className="img-container">
-        <a onClick={() => props.selectFriend(props.name)} className = { props.currentScore === 0 ? "style_prevu_kit style_prevu_kit_ex" : "style_prevu_kit"} >
+        <a onClick={() => props.selectFriend(props.name)} className = { props.currentScore === 0 ? "image image_ex" : "image"} >
             <img className="card" alt={props.name} src={props.image} />
         </a>
     </div>
